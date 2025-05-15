@@ -58,7 +58,7 @@
 #define NVM_NUM_LINK_KEYS 16
 
 // We don't give btstack a malloc, so use a fixed-size ATT DB.
-#define MAX_ATT_DB_SIZE 512
+#define MAX_ATT_DB_SIZE 4098
 
 // BTstack HAL configuration
 #define HAVE_EMBEDDED_TIME_MS
