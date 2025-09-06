@@ -857,9 +857,9 @@ void BTstackManager::enableDebugLogger() {
 
 void BTstackManager::loop(void) {
     // process data from/to Bluetooth module
-    //    hal_uart_dma_process();
+    hal_uart_dma_process();
     // BTstack Run Loop
-    //    btstack_run_loop_embedded_execute_once();
+    btstack_run_loop_embedded_execute_once();
 }
 
 void BTstackManager::bleStartScanning(void) {
